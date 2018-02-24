@@ -91,22 +91,6 @@
 		03191C9A2041BAFB0056B7B8 /* GeQBTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				0B2051B01D0FA3B400D79A9F /* DetailViewController.h */,
-				0B2051B11D0FA3B400D79A9F /* DetailViewController.m */,
-				03191C9B2041BAFB0056B7B8 /* MyTabBarController.m */,
-				03191C9C2041BAFB0056B7B8 /* QBButton.h */,
-				03191C9D2041BAFB0056B7B8 /* MyTabBar.h */,
-				03191C9E2041BAFB0056B7B8 /* MyTabBarController.h */,
-				03191C9F2041BAFB0056B7B8 /* MyTabBar.m */,
-				03191CA02041BAFB0056B7B8 /* QBButton.m */,
-				03191CA12041BAFB0056B7B8 /* tupian */,
-			);
-			path = GeQBTabbar;
-			sourceTree = SOURCE_ROOT;
-		};
-		03191CA12041BAFB0056B7B8 /* tupian */ = {
-			isa = PBXGroup;
-			children = (
 				03191CA22041BAFB0056B7B8 /* TabBarIconOfflineNormal@2x.png */,
 				03191CA32041BAFB0056B7B8 /* TabBarIconFeaturedNormal@2x.png */,
 				03191CA42041BAFB0056B7B8 /* TabBarIconToolbox@2x.png */,
@@ -117,9 +101,17 @@
 				03191CA92041BAFB0056B7B8 /* TabBarIconToolboxNormal@2x.png */,
 				03191CAA2041BAFB0056B7B8 /* TabBarIconDestination@2x.png */,
 				03191CAB2041BAFB0056B7B8 /* TabBarIconOffline@2x.png */,
+				0B2051B01D0FA3B400D79A9F /* DetailViewController.h */,
+				0B2051B11D0FA3B400D79A9F /* DetailViewController.m */,
+				03191C9B2041BAFB0056B7B8 /* MyTabBarController.m */,
+				03191C9C2041BAFB0056B7B8 /* QBButton.h */,
+				03191C9D2041BAFB0056B7B8 /* MyTabBar.h */,
+				03191C9E2041BAFB0056B7B8 /* MyTabBarController.h */,
+				03191C9F2041BAFB0056B7B8 /* MyTabBar.m */,
+				03191CA02041BAFB0056B7B8 /* QBButton.m */,
 			);
-			path = tupian;
-			sourceTree = "<group>";
+			path = GeQBTabbar;
+			sourceTree = SOURCE_ROOT;
 		};
 		0B2051631D0F912800D79A9F = {
 			isa = PBXGroup;
