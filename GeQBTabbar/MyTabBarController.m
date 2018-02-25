@@ -8,7 +8,7 @@
 
 #import "MyTabBarController.h"
 #import "DetailViewController.h"
-//#import "AppDelegate.h"
+#import "AppDelegate.h"
 
 @interface MyTabBarController ()<MyTabBarDelegate>
 
@@ -28,8 +28,8 @@
     [self.navigationController pushViewController:detail animated:YES];
     
     //隐藏tabbar
-//    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-//    [app.myTabBarVC hiddenTabbar];
+    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [app.myTabBarVC hiddenTabbar];
 }
 
 -(void)initUI{

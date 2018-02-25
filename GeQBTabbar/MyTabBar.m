@@ -39,10 +39,12 @@
 -(void)click:(QBButton *)button{
     self.selectedBtn.selected = NO;
 //    self.selectedBtn.bottonTitle = @"未选中";
-    
+
     self.selectedBtn.titleColor = [UIColor grayColor];
 
-    button.selected = YES;
+//    button.selected = YES;
+    
+    [button setNeedsDisplay];
     
     if (self.delegate && [self.delegate respondsToSelector:@selector(selectedMyTabBar:from:to:)]) {
         [self.delegate selectedMyTabBar:self from:self.selectedBtn.tag to:button.tag];

@@ -7,7 +7,7 @@
 //
 
 #import "DetailViewController.h"
-//#import "AppDelegate.h"
+#import "AppDelegate.h"
 
 @interface DetailViewController ()
 
@@ -31,9 +31,9 @@
     NSLog(@"%s",__func__);
     [super viewWillAppear:animated];
     //隐藏tabbar
-//    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-//    [app.myTabBarVC hiddenTabbar];
-//    app.myNav.navigationBar.hidden = NO;
+    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [app.myTabBarVC hiddenTabbar];
+    app.myNav.navigationBar.hidden = NO;
 }
 
 -(void)viewWillDisappear:(BOOL)animated{

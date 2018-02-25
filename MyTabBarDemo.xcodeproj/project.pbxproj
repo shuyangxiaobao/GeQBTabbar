@@ -104,10 +104,10 @@
 				0B2051B01D0FA3B400D79A9F /* DetailViewController.h */,
 				0B2051B11D0FA3B400D79A9F /* DetailViewController.m */,
 				03191C9B2041BAFB0056B7B8 /* MyTabBarController.m */,
-				03191C9C2041BAFB0056B7B8 /* QBButton.h */,
-				03191C9D2041BAFB0056B7B8 /* MyTabBar.h */,
 				03191C9E2041BAFB0056B7B8 /* MyTabBarController.h */,
 				03191C9F2041BAFB0056B7B8 /* MyTabBar.m */,
+				03191C9D2041BAFB0056B7B8 /* MyTabBar.h */,
+				03191C9C2041BAFB0056B7B8 /* QBButton.h */,
 				03191CA02041BAFB0056B7B8 /* QBButton.m */,
 			);
 			path = GeQBTabbar;

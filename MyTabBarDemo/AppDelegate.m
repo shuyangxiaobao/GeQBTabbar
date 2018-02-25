@@ -28,7 +28,9 @@
     _myNav.navigationBar.hidden = YES;
     self.window.rootViewController = _myNav;
     if (@available(iOS 11.0, *)){
-        self.window.rootViewController = _myTabBarVC;
+        _myNav.navigationBar.hidden = YES;
+        _myTabBarVC.tabBar.hidden = YES;
+        [_myTabBarVC.tabBar removeFromSuperview];
     }
 }
 - (void)applicationWillResignActive:(UIApplication *)application {

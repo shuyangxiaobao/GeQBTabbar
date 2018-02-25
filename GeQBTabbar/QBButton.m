@@ -37,8 +37,10 @@
                               NSForegroundColorAttributeName:_titleColor,
                               NSKernAttributeName:@1                              
                               };
-    //    
-    [_bottonTitle drawInRect:CGRectMake(0, 30,320/5, 20) withAttributes:attribute];
+    //  
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
+    CGFloat height = self.bounds.size.height;
+    [_bottonTitle drawInRect:CGRectMake(0, 30,width/5, 20) withAttributes:attribute];
 }
 
 
