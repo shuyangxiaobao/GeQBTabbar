@@ -1,14 +1,7 @@
-//
-//  QBButton.m
-//  MyTabBarDemo
-//
-//  Created by 强宝戈 on 2018/2/24.
-//  Copyright © 2018年 gaomingyang1987. All rights reserved.
-//
 
-#import "QBButton.h"
+#import "SETabBarItem.h"
 
-@implementation QBButton
+@implementation SETabBarItem
 
 
 // Only override drawRect: if you perform custom drawing.

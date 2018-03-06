@@ -1,20 +1,15 @@
-//
-//  MyTabBarController.m
-//  MyTabBarDemo
-//
-//  Created by gaomingyang1987 on 16/6/14.
-//  Copyright © 2016年 gaomingyang1987. All rights reserved.
-//
 
-#import "MyTabBarController.h"
+
+#import "SETabBarController.h"
 #import "DetailViewController.h"
 #import "AppDelegate.h"
+#import "BaseNavigationController.h"
 
-@interface MyTabBarController ()<MyTabBarDelegate>
+@interface SETabBarController ()<MyTabBarDelegate>
 
 @end
 
-@implementation MyTabBarController
+@implementation SETabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,7 +31,7 @@
     //1.移除系统自带的tabbar
     [self.tabBar removeFromSuperview];
     //2.初始化自定义的tabbar
-    _myView = [[MyTabBar alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height-self.tabBar.bounds.size.height, [UIScreen mainScreen].bounds.size.width, self.tabBar.bounds.size.height)];
+    _myView = [[SETabBar alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height-self.tabBar.bounds.size.height, [UIScreen mainScreen].bounds.size.width, self.tabBar.bounds.size.height)];
     //3.添加到当前的view上
     [self.view addSubview:_myView];
     //4.设置代理
@@ -58,7 +53,7 @@
     for (int i=0; i<vcNames.count; i++) {
         UIViewController *vc = [[NSClassFromString(vcNames[i]) alloc] init];
         vc.title = vcTitles[i];
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:vc];
         [navs addObject:nav];
     }
     self.viewControllers = navs;
@@ -82,8 +77,15 @@ NSArray *normalImgs= @[@"TabBarIconDestinationNormal",@"TabBarIconFeaturedNormal
 }
 
 #pragma mark -- MyTabBarDelegate
--(void)selectedMyTabBar:(MyTabBar *)tabbar from:(NSInteger)from to:(NSInteger)to{
+-(void)selectedMyTabBar:(SETabBar *)tabbar from:(NSInteger)from to:(NSInteger)to{
     self.selectedIndex = to;
+    self.navigationController.navigationBar.hidden = YES;
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden = YES;
+
 }
 
 

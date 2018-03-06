@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -22,9 +23,9 @@
 }
 
 -(void)setRootViewController{
-    _myTabBarVC = [[MyTabBarController alloc] init];
+    _myTabBarVC = [[SETabBarController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
-    _myNav = [[UINavigationController alloc]initWithRootViewController:_myTabBarVC];
+    _myNav = [[BaseNavigationController alloc]initWithRootViewController:_myTabBarVC];
     _myNav.navigationBar.hidden = YES;
     self.window.rootViewController = _myNav;
     if (@available(iOS 11.0, *)){

@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyTabBarController.h"
+#import "SETabBarController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (nonatomic,strong) MyTabBarController *myTabBarVC;
+@property (nonatomic,strong) SETabBarController *myTabBarVC;
 @property (nonatomic,strong) UINavigationController *myNav;
 
 @end

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03191CAC2041BAFB0056B7B8 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03191C9B2041BAFB0056B7B8 /* MyTabBarController.m */; };
-		03191CAD2041BAFB0056B7B8 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03191C9F2041BAFB0056B7B8 /* MyTabBar.m */; };
-		03191CAE2041BAFB0056B7B8 /* QBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03191CA02041BAFB0056B7B8 /* QBButton.m */; };
+		03191CAC2041BAFB0056B7B8 /* SETabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03191C9B2041BAFB0056B7B8 /* SETabBarController.m */; };
+		03191CAD2041BAFB0056B7B8 /* SETabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03191C9F2041BAFB0056B7B8 /* SETabBar.m */; };
+		03191CAE2041BAFB0056B7B8 /* SETabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03191CA02041BAFB0056B7B8 /* SETabBarItem.m */; };
 		03191CAF2041BAFB0056B7B8 /* TabBarIconOfflineNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03191CA22041BAFB0056B7B8 /* TabBarIconOfflineNormal@2x.png */; };
 		03191CB02041BAFB0056B7B8 /* TabBarIconFeaturedNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03191CA32041BAFB0056B7B8 /* TabBarIconFeaturedNormal@2x.png */; };
 		03191CB12041BAFB0056B7B8 /* TabBarIconToolbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03191CA42041BAFB0056B7B8 /* TabBarIconToolbox@2x.png */; };
@@ -33,15 +33,16 @@
 		0B2051AC1D0F9FC400D79A9F /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2051AB1D0F9FC400D79A9F /* FourViewController.m */; };
 		0B2051AF1D0F9FCB00D79A9F /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2051AE1D0F9FCB00D79A9F /* FiveViewController.m */; };
 		0B2051B21D0FA3B400D79A9F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2051B11D0FA3B400D79A9F /* DetailViewController.m */; };
+		90FA7271204E6568007F0592 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA7270204E6568007F0592 /* BaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03191C9B2041BAFB0056B7B8 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
-		03191C9C2041BAFB0056B7B8 /* QBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBButton.h; sourceTree = "<group>"; };
-		03191C9D2041BAFB0056B7B8 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
-		03191C9E2041BAFB0056B7B8 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
-		03191C9F2041BAFB0056B7B8 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
-		03191CA02041BAFB0056B7B8 /* QBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBButton.m; sourceTree = "<group>"; };
+		03191C9B2041BAFB0056B7B8 /* SETabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETabBarController.m; sourceTree = "<group>"; };
+		03191C9C2041BAFB0056B7B8 /* SETabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETabBarItem.h; sourceTree = "<group>"; };
+		03191C9D2041BAFB0056B7B8 /* SETabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETabBar.h; sourceTree = "<group>"; };
+		03191C9E2041BAFB0056B7B8 /* SETabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SETabBarController.h; sourceTree = "<group>"; };
+		03191C9F2041BAFB0056B7B8 /* SETabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETabBar.m; sourceTree = "<group>"; };
+		03191CA02041BAFB0056B7B8 /* SETabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SETabBarItem.m; sourceTree = "<group>"; };
 		03191CA22041BAFB0056B7B8 /* TabBarIconOfflineNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarIconOfflineNormal@2x.png"; sourceTree = "<group>"; };
 		03191CA32041BAFB0056B7B8 /* TabBarIconFeaturedNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarIconFeaturedNormal@2x.png"; sourceTree = "<group>"; };
 		03191CA42041BAFB0056B7B8 /* TabBarIconToolbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarIconToolbox@2x.png"; sourceTree = "<group>"; };
@@ -75,6 +76,9 @@
 		0B2051AE1D0F9FCB00D79A9F /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
 		0B2051B01D0FA3B400D79A9F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		0B2051B11D0FA3B400D79A9F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		90FA726F204E6568007F0592 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		90FA7270204E6568007F0592 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		90FC7C42204E719800B16EC3 /* GeQBTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GeQBTabbar.h; path = GeQBTabbar/GeQBTabbar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,13 @@
 				03191CAB2041BAFB0056B7B8 /* TabBarIconOffline@2x.png */,
 				0B2051B01D0FA3B400D79A9F /* DetailViewController.h */,
 				0B2051B11D0FA3B400D79A9F /* DetailViewController.m */,
-				03191C9B2041BAFB0056B7B8 /* MyTabBarController.m */,
-				03191C9E2041BAFB0056B7B8 /* MyTabBarController.h */,
-				03191C9F2041BAFB0056B7B8 /* MyTabBar.m */,
-				03191C9D2041BAFB0056B7B8 /* MyTabBar.h */,
-				03191C9C2041BAFB0056B7B8 /* QBButton.h */,
-				03191CA02041BAFB0056B7B8 /* QBButton.m */,
+				03191C9B2041BAFB0056B7B8 /* SETabBarController.m */,
+				03191C9E2041BAFB0056B7B8 /* SETabBarController.h */,
+				03191C9F2041BAFB0056B7B8 /* SETabBar.m */,
+				03191C9D2041BAFB0056B7B8 /* SETabBar.h */,
+				03191C9C2041BAFB0056B7B8 /* SETabBarItem.h */,
+				03191CA02041BAFB0056B7B8 /* SETabBarItem.m */,
+				90FC7C42204E719800B16EC3 /* GeQBTabbar.h */,
 			);
 			path = GeQBTabbar;
 			sourceTree = SOURCE_ROOT;
@@ -153,6 +158,8 @@
 				0B2051AB1D0F9FC400D79A9F /* FourViewController.m */,
 				0B2051AD1D0F9FCB00D79A9F /* FiveViewController.h */,
 				0B2051AE1D0F9FCB00D79A9F /* FiveViewController.m */,
+				90FA726F204E6568007F0592 /* BaseNavigationController.h */,
+				90FA7270204E6568007F0592 /* BaseNavigationController.m */,
 			);
 			path = MyTabBarDemo;
 			sourceTree = "<group>";
@@ -247,12 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03191CAE2041BAFB0056B7B8 /* QBButton.m in Sources */,
-				03191CAD2041BAFB0056B7B8 /* MyTabBar.m in Sources */,
+				03191CAE2041BAFB0056B7B8 /* SETabBarItem.m in Sources */,
+				03191CAD2041BAFB0056B7B8 /* SETabBar.m in Sources */,
 				0B2051A61D0F9FB400D79A9F /* TwoViewController.m in Sources */,
 				0B2051771D0F912800D79A9F /* ViewController.m in Sources */,
 				0B2051741D0F912800D79A9F /* AppDelegate.m in Sources */,
-				03191CAC2041BAFB0056B7B8 /* MyTabBarController.m in Sources */,
+				03191CAC2041BAFB0056B7B8 /* SETabBarController.m in Sources */,
+				90FA7271204E6568007F0592 /* BaseNavigationController.m in Sources */,
 				0B2051AC1D0F9FC400D79A9F /* FourViewController.m in Sources */,
 				0B2051AF1D0F9FCB00D79A9F /* FiveViewController.m in Sources */,
 				0B2051711D0F912800D79A9F /* main.m in Sources */,

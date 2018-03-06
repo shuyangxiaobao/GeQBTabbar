@@ -1,24 +1,18 @@
-//
-//  MyTabBar.m
-//  MyTabBarDemo
-//
-//  Created by gaomingyang1987 on 16/6/14.
-//  Copyright © 2016年 gaomingyang1987. All rights reserved.
-//
 
-#import "MyTabBar.h"
-#import "QBButton.h"
 
-@interface MyTabBar ()
+#import "SETabBar.h"
+#import "SETabBarItem.h"
+
+@interface SETabBar ()
 //记录当前点击的按钮
-@property (nonatomic,strong)QBButton *selectedBtn;
+@property (nonatomic,strong)SETabBarItem *selectedBtn;
 @end
 
 
-@implementation MyTabBar
+@implementation SETabBar
 
 -(void)addButtonWithImage:(UIImage *)image selectedImg:(UIImage *)selectedImg andTitle:(NSString*)title{
-    QBButton *button = [QBButton buttonWithType:UIButtonTypeCustom];
+    SETabBarItem *button = [SETabBarItem buttonWithType:UIButtonTypeCustom];
     [button setImage:image forState:UIControlStateNormal];
     [button setImage:selectedImg forState:UIControlStateSelected];
     button.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 22, 0);
@@ -36,13 +30,13 @@
 /**
  点击事件触发的方法
  */
--(void)click:(QBButton *)button{
+-(void)click:(SETabBarItem *)button{
     self.selectedBtn.selected = NO;
 //    self.selectedBtn.bottonTitle = @"未选中";
 
     self.selectedBtn.titleColor = [UIColor grayColor];
 
-//    button.selected = YES;
+    button.selected = YES;
     
     [button setNeedsDisplay];
     
@@ -51,7 +45,7 @@
     }
 
 //    button.bottonTitle = @"选中";
-    button.titleColor = [UIColor blueColor];
+    button.titleColor = [UIColor colorWithRed:22/255.0 green:134/255.0 blue:218/255.0 alpha:1.0];
 
     self.selectedBtn = button;
 }
